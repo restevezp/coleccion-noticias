@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #FF8C99, #BBD750);
+    width: 100%;
+}
+  
+ article {
+    float: left;
+    width: 16%;
+    
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-top: 80px;
+ }
+ 
+ article:first-child {
+    margin-left: 100px;
+ }
+ 
+ article:not(:first-child) {
+    margin-left: 30px;
+ }
+ 
+ 
+ time {
+    color: #999;
+    font-size: 15px;
+    font-style: italic;
+    
+ }
+ 
+ h1 {
+    font-size: 30px;
+    margin: 30px 0 30px;
+ }
+ 
+ img {
+    max-width: 100%;
+ }
+ 
+ 
